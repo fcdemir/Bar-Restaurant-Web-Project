@@ -1,0 +1,242 @@
+
+@font-face {
+    font-family: 'Futura';
+    src: url('content/font/Futura.ttc');
+}
+
+html {
+    background-color: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+h4 {
+    font-family: 'Cinzel', serif;
+    color: white;
+    font-size: 25px;
+    letter-spacing: 10px;
+    font-weight: 400;
+}
+
+.container_menu_privacy p {
+    font-family: 'Futura';
+    text-align: left;
+    font-size: 13px;
+    line-height: 23px;
+    text-align: left;
+    color: white;
+    padding: 0px 500px;
+    padding-bottom: 100px;
+}
+
+.center_title {
+    display: flex;
+    flex-direction: row;
+    margin-top: 0px;
+    letter-spacing: 5px;
+    text-align: center;
+    padding: 100px 350px;
+  }
+
+  .center_title:before, .center_title:after {
+    content: "";
+    width: 500px;
+    border-bottom: 1px solid;
+    margin: auto;
+  }
+
+  .center_title:before {
+    margin-right: 20px;  
+  }
+  .center_title:after {
+    margin-left: 10px;  
+  }
+
+body {
+    margin: 0 auto;
+}
+
+.container_header {
+    padding-top: 400px;
+    background-image: url('content/img/BGTOP.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+}
+
+.container_header_logo {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 240px;
+    width: 1366px;
+    margin: 0 auto;
+    
+}
+
+.container_header_L {
+    flex: 1;
+    justify-content: center;
+    text-align: right;
+}
+
+.container_header_L img {
+    width: 500px;
+}
+
+.container_header_R {
+    flex: 1;
+    padding-top: 0px;
+    padding-right: 150px;
+    text-align: right;
+}
+
+.container_header_R h1 {
+    font-size: 55px;
+    font-family: 'Cinzel', serif;
+    color: white;
+    letter-spacing: 10px;
+    font-weight: 700;
+    text-align: right;
+    text-shadow: 0px 0px 15px rgba(0, 0, 0, 0.452);
+}
+
+.container_header_R button {
+  width: 230px;
+  height: 35px;
+  font-family: 'Cinzel';
+  font-size: 15px;
+  color: white;
+  letter-spacing: 2px;
+  background-color: #761F26;
+  border-style: none;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.452);
+  transition: 750ms;
+}
+
+.container_header_R button:hover {
+  width: 250px;
+  cursor: pointer;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.767);
+  background-color: white;
+  color: black;
+
+}
+
+.container_header_R h1 {
+  padding-top: 30px;
+}
+
+
+.container_header_R h2{
+  font-size: 15px;
+    font-family: 'Cinzel', serif;
+    color: white;
+    letter-spacing: 10px;
+    font-weight: 400;
+    text-align: right;
+    text-shadow: 0px 0px 5px black;
+  padding-top: 15px;
+  padding-bottom: 35px;
+}
+
+nav {
+  text-align: center;
+  padding-bottom: 100px;
+}
+
+nav a {
+  font-family: 'Cinzel';
+  font-size: 15px;
+  color: white;
+  letter-spacing: 2px;
+  text-decoration: none;
+  margin: 0 10px;
+  transition: 500ms;
+  text-shadow: 0px 0px 5px black;
+}
+
+nav a:hover {
+  font-size: 17px;
+  text-decoration: underline;
+}
+
+
+.container_body {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container_web_address {
+  background-color: #393939;
+  box-shadow: 0px -50px 55px black;
+}
+
+.container_web_address h3 {
+  color: white;
+  font-family: 'Cinzel', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  letter-spacing: 15px;
+}
+
+
+
+  .container_menu_privacy {
+    margin: 0 auto;
+  }
+
+
+
+
+
+
+
+  footer {
+    width: 100%;
+    height: 400px;
+    background-color: #761F26;
+    text-align: center;
+    padding: 50px 0px;
+  }
+
+  footer p {
+    color: white;
+    font-family: 'Cinzel';
+    text-align: center;
+    margin-top: 15px;
+    font-size: 15px;
+    line-height: 23px;
+  }
+  
+
+  footer a {
+    color: white;
+    font-family: 'Cinzel';
+    text-align: center;
+    font-size: 13px;
+    line-height: 23px;
+  }
+
+  footer a:hover {
+    text-decoration: underline;
+  }
+
+  .footer_social img {
+    padding: 0px;
+    margin-top: 25px;
+    width: 60px ;
+    height: 60px;
+    transition: 500ms;
+  }
+
+  .footer_social img:hover {
+    width: 55px;
+    height: 55px;
+  }

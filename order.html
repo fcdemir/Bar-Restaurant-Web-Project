@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="HTML, CSS, JavaScript, Bootstrap">
+        <meta name="description" content="Bar & Restaurant Website/Webpage, Dublin, Ireland, Restaurant, Bar, Pub">
+        <meta name="author" content="Furkan Demir, fcdemir">
+        <link rel="icon" type="image/png" href="./content/img/favicon-16x16.png" sizes="16x16">
+        <link rel="icon" type="image/png" href="./content/img/favicon-32x32.png" sizes="32x32">
+        <link rel="icon" type="image/png" href="./content/img/favicon-96x96.png" sizes="96x96">
+        <link rel="icon" type="image/png" href="./content/img/favicon-180x180.png" sizes="180x180">
+        <link rel="icon" type="image/png" href="./content/img/favicon-300x300.png" sizes="300x300">
+        <link rel="icon" type="image/png" href="./content/img/favicon-512x512.png" sizes="512x512">
+        <title>Order Menu</title>
+
+    <!-- CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- FONTS -->
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;500&display=swap" rel="stylesheet">
+
+    <!-- SCRIPT -->
+    <script src="https://code.jquery.com/jquery-3.6.1.slim.js"
+        integrity="sha256-tXm+sa1uzsbFnbXt8GJqsgi2Tw+m4BLGDof6eUPjbtk=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <!-- NAVBAR SCROLLING SCRIPT -->
+    <script>
+        $(document).ready(function () {
+            $(window).scroll(function () {
+                var scroll = $(window).scrollTop();
+                if (scroll > 100) {
+                    $("nav").css("background", "#761F26");
+                    $("nav a").css("color", "white");
+                    $(".return-menu").css("display", "block");
+                }
+
+                else {
+                    $("nav").css("background", "rgba(0, 0, 0, 0)");
+                    $("nav a").css("color", "white");
+                    $(".return-menu").css("display", "none");
+                }
+            })
+        })
+    </script>
+
+    <header>
+
+        <nav class="container-fluid text-center py-4">
+            <a class="return-menu" href="./index.html">RETURN TO MENU</a>
+        </nav>
+
+        <div class="container-fluid header">
+
+            <div id="welcome"></div>
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 text-center">
+                        <img class="w-75" src="./content/img/logo.png" alt="Logo">
+                    </div>
+
+                    <div
+                        class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 d-flex flex-column text-center justify-content-center">
+                        <h1 class="fw-bold text-white display-3">MENU</h1>
+                        <h4 class="text-white letterspc fw-medium">The Origin of The Quality</h4>
+                        <a href="./index.html">
+                            <button type="button" class="btn-order text-white mt-3 py-3">Return To Menu</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <main>
+
+        <!-- SLOGAN -->
+        <div class="container-fluid slogan">
+            <h6 class="fw-medium py-3 my-0 text-center text-white p-3">THE GREATEST TASTES ONE MORE DELICIOUS THAN THE
+                OTHER</h6>
+        </div>
+
+        <!-- DISHES -->
+        <div class="container-fluid bg-dark">
+
+            <div class="container">
+    
+                <div class="row">
+    
+    
+    
+    
+                    <div class="col-12 d-flex flex-row align-items-center py-5">
+                        <hr>
+                        <h4 class="text-white text-center w-50"> ORDER MENU</h4>
+                        <hr>
+                    </div>
+    
+                    <!-- DISH-1 -->
+    
+                    <div class="row pb-5">
+    
+                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 text-center">
+                            <img class="w-50" src="content/img/dish1.png" alt="Caprese Salad">
+                        </div>
+    
+                        <div
+                            class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 d-flex flex-column justify-content-center py-5">
+                            <div class="col-12 d-flex flex-row align-items-center">
+                                <h4 class="w-75 text-white fw-bold">CAPRESE SALAD</h4>
+                                <hr>
+                            </div>
+    
+                            <p class="text-white fw-medium">BUFFALO MOZZARELLA, TOMATO, SWEET BASIL OLIVE AND BALSAMIC
+                                DRESSING<br>CONTAINS: MILK, EGG</p>
+                            <h5 class="text-white fw-bold">€9.5</h5>
+                        </div>
+    
+                    </div>
+    
+                    <!-- DISH-2 -->
+                    <div class="row pb-5">
+    
+                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 text-center">
+                            <img class="w-50" src="./content/img/dish2.png" alt="Caprese Salad">
+                        </div>
+    
+                        <div
+                            class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 d-flex flex-column justify-content-center py-5">
+                            <h4 class="text-white fw-bold">CALAMARI SALAD</h4>
+                            <p class="text-white fw-medium">BUFFALO MOZZARELLA, TOMATO, SWEET BASIL OLIVE AND BALSAMIC
+                                DRESSING<br>CONTAINS: MILK, EGG</p>
+                            <h5 class="text-white fw-bold">€9.5</h5>
+                        </div>
+    
+                    </div>
+    
+                    <!-- DISH-3 -->
+                    <div class="row pb-5">
+    
+                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 text-center">
+                            <img class="w-50" src="./content/img/dish3.png" alt="Caprese Salad">
+                        </div>
+    
+                        <div
+                            class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 d-flex flex-column justify-content-center py-5">
+                            <h4 class="text-white fw-bold">GOATS CHEESE BALLS</h4>
+                            <p class="text-white fw-medium">GOATS CHEESE BALLS IN A CRISPY BREAD COATTING WITH SWEET CHILLI
+                                SAUCE<br>CONTAINS: WHEAT, MILK, EGG</p>
+                            <h5 class="text-white fw-bold">€9</h5>
+                        </div>
+    
+                    </div>
+    
+                    <!-- DISH-4 -->
+                    <div class="row pb-5">
+    
+                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 text-center">
+                            <img class="w-50" src="./content/img/dish4.png" alt="Caprese Salad">
+                        </div>
+    
+                        <div
+                            class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 d-flex flex-column justify-content-center py-5">
+                            <h4 class="text-white fw-bold">FISH & CHIPS</h4>
+                            <p class="text-white fw-medium">FRESH HAKE, CRISPY HOUSE CUT FRIES, TARTARE SAUCE&MINTED
+                                PEAS<br>CONTAINS: WHEAT, BARLEY, EGG</p>
+                            <h5 class="text-white fw-bold">€16</h5>
+                        </div>
+    
+                    </div>
+    
+                    <!-- DISH-5 -->
+                    <div class="row pb-5">
+    
+                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 text-center">
+                            <img class="w-50" src="./content/img/dish5.png" alt="Caprese Salad">
+                        </div>
+    
+                        <div
+                            class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 d-flex flex-column justify-content-center py-5">
+                            <h4 class="text-white fw-bold">HOUSE COOKED WINGS</h4>
+                            <p class="text-white fw-medium">COOKED FRESH DAILY, CHOOSE FRANKS HOT SAUCE OR SMOKEY
+                                BBQ<br>CONTAINS: MILK</p>
+                            <h5 class="text-white fw-bold">€7.5 Small / €11 Large</h5>
+                        </div>
+    
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </main>
+
+    <footer>
+
+        <div class="container-fluid footer">
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-12 pt-5 text-center">
+                        <img class="footer-logo" src="./content/img/logo.png" alt="Footer Logo">
+                    </div>
+
+                    <div class="col-12 pt-3">
+                        <div class="col-12">
+                            <p class="text-center fw-light text-white">
+                                © Copyright - BAR & RESTAURANT |
+                                <a class="fw-bold" href="privacypolicy.html">PRIVACY POLICY</a> <br>
+                                00/01 XXX Street, XXX Apartment, D00XXXX, Dublin/Ireland
+                            </p>
+                        </div>
+
+                        <div class="col-12 text-center py-3">
+                            <a class="" href="#">
+                                <img class="social" src="./content/img/Facebook.png" alt="Facebook">
+                            </a>
+                            <a href="#">
+                                <img class="social" src="./content/img/Instagram.png" alt="Instagram">
+                            </a>
+                            <a href="#">
+                                <img class="social" src="./content/img/Twitter.png" alt="Twitter">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,332 @@
+
+html {
+    background-color: black;
+}
+
+
+/* TYPOGRAPHY and OTHER SETTINGS */
+
+a {
+    font-family: 'Cinzel';
+    transition: .75s;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Cinzel', serif;
+  transition: .75s;
+}
+
+p {
+  font-family: 'Poppins', sans-serif;
+}
+
+.text-grey {
+  color: #505050;
+}
+
+.text-darkgrey {
+  color: #2e2e2e;
+}
+
+hr {
+  width: 100%;
+  border-top: 2px solid white;
+  margin: 0 2%;
+}
+
+.letterspc {
+  letter-spacing: .4rem;
+}
+
+.bg-dark {
+  background-color: #1a1a1a;
+}
+
+
+/* HEADER */
+
+.header {
+    background-image: url('./content/img/BGTOP.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    padding: 13% 0;
+}
+
+.header h1 {
+  letter-spacing: .7rem;
+}
+
+.btn-order {
+  padding: 1% 2%;
+  letter-spacing: 3px;
+  background-color: #761F26;
+  border-style: none;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.452);
+  transition: 750ms;
+  font-family: 'Cinzel', 'serif';
+  width: 275px;
+}
+
+.btn-order:hover {
+  transform: rotatex(360deg);
+  cursor: pointer;
+  box-shadow: inset 0 0 25px rgba(0, 0, 0, 0.767);
+  background-color: black;
+}
+
+/* NAVIGATOR */
+
+nav {
+  position: fixed;
+  bottom: 0;
+  text-shadow: 0 0 5px black;
+  transition: 750ms;
+  background-color: #761F26;
+  z-index: 99;
+  display: none;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  letter-spacing: 3px;
+  margin: 0 1rem;
+}
+
+nav a:hover {
+  transition: .75s;
+  letter-spacing: .5rem;
+}
+
+
+
+/* BODY */
+
+/* WEB */
+
+.web {
+  background-color: rgb(19, 19, 19);
+  box-shadow: 0px -50px 55px black;
+  padding: 1% 0;
+}
+
+.web h6 {
+  font-size: 1rem;
+  letter-spacing: 5px;
+}
+
+/* ABOUT */
+
+.about {
+    background-color: #acacac;
+}
+
+.about-image {
+  width: 100%;
+}
+
+
+  /*---------KITCHEN----------*/
+
+.kitchen {
+  padding-top: 5%;
+  background-color: #761F26;
+}
+
+.menu {
+  background-size: cover;
+  transition: .75s;
+  padding: 15% 0;
+}
+
+.menu:hover {
+  box-shadow: 0 0 35px rgba(0, 0, 0, 0.658);
+  cursor: pointer;
+  transform: scale(1.05);
+  transition: .75s;
+}
+
+.menu1 {
+    background-image: url('./content/img/kitchen1.jpg');
+}
+
+.menu2 {
+  background-image: url('./content/img/kitchen2.jpg');
+}
+
+
+.menu3 {
+    background-image: url('./content/img/kitchen3.jpg');
+}
+
+
+/* CONTACT */
+
+.contact {
+  padding-top: 5%;
+  background-color: #0D0D0D;
+}
+
+.contact-info {
+  background-color: #761F26;
+  padding: 4.25% 0;
+  transition: 500ms;
+  margin-bottom: 5px;
+}
+
+.contact-info:hover {
+  background-color: black;
+  width: 90%;
+}
+
+input[type=text], select {
+  width: 100%;
+  height: 8%;
+  margin-bottom: 2%;
+  border-style: none;
+  display: inline-block;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 1rem;
+  font-family: 'Cinzel', sans-serif;
+  letter-spacing: 3px;
+  outline: none;
+  background-color: white;
+  color: black;
+}
+
+input[type=text]::placeholder {
+  font-family: 'Cinzel', sans-serif;
+  font-size: 1rem;
+  font-weight: normal;
+  text-align: center;
+  color: black;
+}
+
+textarea, select {
+    width: 100%;
+    border-style: none;
+    resize: none;
+    text-align: center;
+    font-size: 1rem;
+    font-family: 'Cinzel', sans-serif;
+    letter-spacing: 3px;
+    outline: none;
+    padding: 25px 0;
+    background-color: white;
+    color: black;
+}
+
+textarea::placeholder {
+    font-family: 'Cinzel', sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    text-align: center;
+    color: black;
+}
+
+input[type=checkbox] {
+  transform: scale(2);
+  -moz-transform: scale(2);
+  -webkit-transform: scale(2);
+}
+
+input[type=button], select {
+  width: 100%;
+  font-family: 'Cinzel', sans-serif;
+  font-size: 20px;
+  background-color: #761F26;
+  box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.247) ;
+  transition: 750ms;
+  cursor: pointer;
+  border-style: none;
+}
+
+input[type=button]:hover {
+  background-color: #5dd170;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.425);
+  color: black;
+}
+
+
+  /* DELIVERY */
+
+.delivery {
+  background-color: #2c2c2c;
+}
+
+
+  /* FOOTER */
+
+.footer {
+  background-color: #761F26;
+}
+
+.footer a {
+  text-decoration: none;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+
+.footer-logo {
+  width: 25%;
+}
+
+.social {
+  padding-bottom: 10%;
+}
+
+.bgred {
+  background-color: red;
+}
+
+.bgblue {
+  background-color: blue;
+}
+
+
+
+
+
+
+/* BOOKING AND ORDER MENU WEB PAGE*/
+/* BOOKING AND ORDER MENU WEB PAGE*/
+
+
+.bao-background {
+  background-image: url('./content/img/BGTOP.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.bao-logo {
+  width: 40%;
+}
+
+.bao-row {
+  padding: 5% 0;
+}
+
+
+/* ORDER WEB PAGE*/
+/* ORDER WEB PAGE*/
+
+/* SLOGAN */
+
+.slogan {
+  background-color: rgb(19, 19, 19);
+  box-shadow: 0px -50px 55px black;
+  padding: 1% 0;
+}
+
+.slogan h6 {
+  font-size: 1rem;
+  letter-spacing: 5px;
+}
+
+.return-menu {
+  display: none;
+}
